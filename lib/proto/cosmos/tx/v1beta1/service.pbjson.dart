@@ -1,19 +1,13 @@
 ///
-import 'dart:convert' as $convert;
-import 'dart:core' as $core;
-import 'dart:typed_data' as $typed_data;
-@$core.Deprecated('Use orderByDescriptor instead')
-const OrderBy$json = const {
-  '1': 'OrderBy',
-  '2': const [
-    const {'1': 'ORDER_BY_UNSPECIFIED', '2': 0},
-    const {'1': 'ORDER_BY_ASC', '2': 1},
-    const {'1': 'ORDER_BY_DESC', '2': 2},
-  ],
-};
+//  Generated code. Do not modify.
+//  source: cosmos/tx/v1beta1/service.proto
+//
+// @dart = 2.12
+// ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields,deprecated_member_use_from_same_package
 
-/// Descriptor for `OrderBy`. Decode as a `google.protobuf.EnumDescriptorProto`.
-final $typed_data.Uint8List orderByDescriptor = $convert.base64Decode('CgdPcmRlckJ5EhgKFE9SREVSX0JZX1VOU1BFQ0lGSUVEEAASEAoMT1JERVJfQllfQVNDEAESEQoNT1JERVJfQllfREVTQxAC');
+import 'dart:core' as $core;
+import 'dart:convert' as $convert;
+import 'dart:typed_data' as $typed_data;
 @$core.Deprecated('Use broadcastModeDescriptor instead')
 const BroadcastMode$json = const {
   '1': 'BroadcastMode',
@@ -33,12 +27,11 @@ const GetTxsEventRequest$json = const {
   '2': const [
     const {'1': 'events', '3': 1, '4': 3, '5': 9, '10': 'events'},
     const {'1': 'pagination', '3': 2, '4': 1, '5': 11, '6': '.cosmos.base.query.v1beta1.PageRequest', '10': 'pagination'},
-    const {'1': 'order_by', '3': 3, '4': 1, '5': 14, '6': '.cosmos.tx.v1beta1.OrderBy', '10': 'orderBy'},
   ],
 };
 
 /// Descriptor for `GetTxsEventRequest`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List getTxsEventRequestDescriptor = $convert.base64Decode('ChJHZXRUeHNFdmVudFJlcXVlc3QSFgoGZXZlbnRzGAEgAygJUgZldmVudHMSRgoKcGFnaW5hdGlvbhgCIAEoCzImLmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJlcXVlc3RSCnBhZ2luYXRpb24SNQoIb3JkZXJfYnkYAyABKA4yGi5jb3Ntb3MudHgudjFiZXRhMS5PcmRlckJ5UgdvcmRlckJ5');
+final $typed_data.Uint8List getTxsEventRequestDescriptor = $convert.base64Decode('ChJHZXRUeHNFdmVudFJlcXVlc3QSFgoGZXZlbnRzGAEgAygJUgZldmVudHMSRgoKcGFnaW5hdGlvbhgCIAEoCzImLmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJlcXVlc3RSCnBhZ2luYXRpb24=');
 @$core.Deprecated('Use getTxsEventResponseDescriptor instead')
 const GetTxsEventResponse$json = const {
   '1': 'GetTxsEventResponse',
